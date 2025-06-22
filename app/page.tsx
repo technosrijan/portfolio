@@ -8,13 +8,13 @@ import Contact from "@/components/Contact"
 
 export default function Home() {
   return (
-    <div className="h-screen overflow-y-scroll snap-y snap-mandatory bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900">
-      <section className="snap-start h-screen"><Hero /></section>
-      <section className="snap-start h-screen"><About /></section>
-      <section className="snap-start"><Projects /></section>
-      <section className="snap-start"><Skills /></section>
-      <section className="snap-start"><Music /></section>
-      <section className="snap-start"><Contact /></section>
+    <div className="h-screen overflow-y-scroll bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 max-w-full overflow-x-hidden sm:snap-y sm:snap-mandatory">
+      <section className="h-screen min-h-screen sm:snap-start sm:snap-always"><Hero /></section>
+      <section className="min-h-screen pt-8 pb-8 sm:pt-0 sm:pb-0 sm:snap-start sm:snap-always"><About /></section>
+      <section className="sm:snap-start sm:snap-always"><Projects /></section>
+      <section className="sm:snap-start sm:snap-always"><Skills /></section>
+      <section className="sm:snap-start sm:snap-always"><Music /></section>
+      <section className="sm:snap-start sm:snap-always"><Contact /></section>
     </div>
   )
 }
