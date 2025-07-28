@@ -133,7 +133,7 @@ export default function Hero() {
 					}}
 					transition={{ duration: 2, repeat: Number.POSITIVE_INFINITY, ease: "easeInOut" }}
 					className="cursor-pointer flex items-center justify-center"
-					onClick={() => scrollToSection("about")}
+					onClick={() => scrollToSection("projects")}
 				>
 					<ChevronDown className="h-16 w-16 sm:h-20 sm:w-20 text-white drop-shadow-lg" strokeWidth={2.7} />
 				</motion.div>
