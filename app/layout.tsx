@@ -6,8 +6,8 @@ export const metadata: Metadata = {
   description: 'Portfolio of Srijan Mukherjee',
   generator: 'v0.dev',
   icons: {
-    icon: 'public/favicon.png',
-  },
+    icon: '/favicon.png',
+  },  
 }
 
 export default function RootLayout({
