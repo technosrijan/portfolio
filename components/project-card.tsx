@@ -51,7 +51,7 @@ export default function ProjectCard({
               fill
               sizes="(min-width: 1024px) 66vw, 100vw"
               priority={priority}
-              className="object-cover blur-lg sm:blur-0"
+              className="object-cover blur-lg md:blur-0"
             />
             {/* Subtle vignette */}
             <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-black/30" />
