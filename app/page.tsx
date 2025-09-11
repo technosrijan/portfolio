@@ -42,7 +42,7 @@ export default function Page() {
     },
     {
       title: "InterviewLM — Realtime interview practice",
-      subtitle: "Multimodal AI interview coach",
+      subtitle: "Development yet to be started",
       imageSrc: "/images/proj4.png",
       tags: ["Agentic AI", "NLP", "LLM"],
       href: "https://github.com/technosrijan/interviewlm",

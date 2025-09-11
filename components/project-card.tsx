@@ -73,16 +73,14 @@ export default function ProjectCard({
           {/* Bottom content */}
           <div className="absolute inset-x-0 bottom-0 p-4 sm:p-5">
             <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
-              <div>
+              <div className="rounded-xl bg-black/40 backdrop-blur-md px-4 py-2 w-fit">
                 <h3
                   className="text-lg font-semibold sm:text-xl"
-                  style={{ textShadow: "0 2px 8px rgba(0,0,0,0.85)" }}
                 >
                   {title}
                 </h3>
                 <p
                   className="text-sm text-white/70"
-                  style={{ textShadow: "0 2px 8px rgba(0,0,0,0.85)" }}
                 >
                   {subtitle}
                 </p>
